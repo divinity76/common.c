@@ -3,7 +3,7 @@
 #if defined(__GLIBC__)
 #include <execinfo.h>
 #endif
-#include "common.h"
+#include "misc.h"
 
 
 void* emalloc(size_t size) {

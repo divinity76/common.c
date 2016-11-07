@@ -1,5 +1,5 @@
-#ifndef COMMON_H_
-#define COMMON_H_
+#ifndef MISC_H_
+#define MISC_H_
 #include <byteswap.h>
 void* emalloc(size_t size);
 void* erealloc(void* ptr, size_t size);
@@ -32,5 +32,5 @@ void* ecalloc(size_t num, size_t size);
 #define MAX(a,b) (((a)>(b))?(a):(b))
 #endif
 
-#endif /* COMMON_H_ */
+#endif /* MISC_H_ */
 

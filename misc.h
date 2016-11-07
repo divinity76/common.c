@@ -1,9 +1,9 @@
-#ifndef MISC_H_
-#define MISC_H_
+#ifndef COMMON_H_
+#define COMMON_H_
 #include <byteswap.h>
-void* emalloc(size_t size);
-void* erealloc(void* ptr, size_t size);
-void* ecalloc(size_t num, size_t size);
+void *emalloc(const size_t size);
+void *erealloc(void *ptr, const size_t size);
+void *ecalloc(const size_t num, const size_t size);
 
 #define myerror(status,errnum,...)(error_at_line(status,errnum,__FILE__,__LINE__,__VA_ARGS__))
 
@@ -32,5 +32,6 @@ void* ecalloc(size_t num, size_t size);
 #define MAX(a,b) (((a)>(b))?(a):(b))
 #endif
 
-#endif /* MISC_H_ */
+#endif /* COMMON_H_ */
+
 

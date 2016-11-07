@@ -1,2 +1,2 @@
-# common.c
-C functions i commonly use/need. public domain.
+# misc.c
+random collection of C functions. public domain.
